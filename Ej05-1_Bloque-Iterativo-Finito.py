@@ -5,6 +5,8 @@
 #Imaginemos que pedimos al usuario introducir un número comprendido entre 1 y 10, aunque esta vez, 
 # le pedimos un valor en caso de error en lugar de salir del programa, # tantas veces como se equivoque.
 
+#LO VAMOS A RESOLVER USANDO UN BUCLE ITERATIVO FINITO
+
 #Pedimos al usuario que introduzca un número
 numero = input("Introduzca un número entre 1 y 10: ")
 try:
