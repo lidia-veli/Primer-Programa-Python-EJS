@@ -12,7 +12,8 @@ while True: #ENTRAMOS EN UN BUCLE INFINITO
     try: #intentamos trasnformarlo a entero
         numero = int(numero) #si se puede, se asigna a la variable numero
     except:
-        pass #si no se puede convertir, se repite el bucle
+        pass #si no se puede convertir, se continua con el resto del codigo del bucle
+        #continue --> si no se puede convertir, se repite el bucle desde el principio
 
     #una vez tenemos el entero
     else: #establecemos la CONDICIÓN NECESARIA PARA SALIR DEL BUCLE INFINITO

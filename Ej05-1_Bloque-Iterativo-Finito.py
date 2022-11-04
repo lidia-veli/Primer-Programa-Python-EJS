@@ -10,7 +10,7 @@ try:
     numero = int(numero)
 except:
     numero = 0 #si no se puede convertir a entero, se le asigna el valor 0
-    #esto va a meternos directamente en el bucle iterativo, que nos pedirá introducir de nuevo un número entre el 1 y el 10
+    #esto va a meternos directamente en el bucle iterativo, que nos pedirá introducir de nuevo un número entre 1 y 10
 
 # Mientras el número no esté entre 1 y 10
 while not 1 <= numero <= 10: #ENTRAMOS EN EL BUCLE FINITO

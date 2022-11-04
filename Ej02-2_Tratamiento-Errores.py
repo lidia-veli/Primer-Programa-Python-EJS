@@ -23,7 +23,7 @@ except: #SECCIÓN DE TRATAMIENTO DE EXCEPCIONES: que se ejecuta si se da alguna 
 #Tratamos la segunda excepción
 numero2 = input("Introduzca un segundo número: ")
 
-try: 
+try: #Sección crítica
     numero2 = int(numero2) 
 
 except ValueError as e: #sólo se capturan las excepciones de tipo ValueError, producidas por la conversión a entero
